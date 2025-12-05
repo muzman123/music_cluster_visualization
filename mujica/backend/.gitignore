@@ -1,0 +1,54 @@
+# Backend-specific .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+mujica.db
+soundscape.db
+
+# Uploaded Audio Files
+uploads/*
+!uploads/.gitkeep
+
+# Model files (temporary, keep the main trained model)
+*.pth
+best_model.pth
+model_weights.pth
+# Keep the main model:
+!ml_models/pytorch_genre_classifier_best.pkl
+
+# Environment
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

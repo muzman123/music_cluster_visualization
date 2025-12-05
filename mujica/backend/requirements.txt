@@ -1,0 +1,20 @@
+# FastAPI and web server
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Database
+sqlalchemy
+psycopg2-binary
+
+# ML and Audio Processing
+librosa
+numpy
+scikit-learn
+
+# YouTube downloading
+yt-dlp
+
+# Utilities
+python-dotenv
+pydantic

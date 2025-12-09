@@ -139,7 +139,7 @@ async def upload_youtube(
         predictor = get_predictor()
         predicted_genre, confidence, probabilities = predictor.predict_multi_segment(
             audio_path,
-            num_segments=10
+            num_segments=5
         )
         
         # Calculate position
